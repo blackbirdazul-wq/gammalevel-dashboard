@@ -1,0 +1,142 @@
+{
+  "atualizado": "19/11/2026 (OI do pregao 18/11)",
+  "pregao": "18/11/2026",
+  "virada": 170820,
+  "exterior": "Neutro",
+  "vix": "22,16 (-9,8%)",
+  "eua_gamma": "Negativo",
+  "ewz_gamma": "Negativo",
+  "contexto": "Senado aprovou o pacote fiscal; dolar a R$ 5,92 e ata do Fed dura pesam",
+  "niveis": [
+    {
+      "nome": "Resist. EWZ call wall",
+      "valor": 179815,
+      "tipo": "resistencia"
+    },
+    {
+      "nome": "Resist. BOVA11 call wall",
+      "valor": 174725,
+      "tipo": "resistencia"
+    },
+    {
+      "nome": "Virada BOVA11",
+      "valor": 170820,
+      "tipo": "virada"
+    },
+    {
+      "nome": "Suporte forte (EWZ put + BOVA11 put)",
+      "valor": 168560,
+      "tipo": "suporte"
+    },
+    {
+      "nome": "Suporte forte (5 ativos)",
+      "valor": 168425,
+      "tipo": "suporte"
+    }
+  ],
+  "confluencias": [
+    {
+      "faixa": "179.335 - 179.815",
+      "tipo": "Resistencia",
+      "ativos": "3 ativos",
+      "detalhe": "EWZ call, QQQ call, SPY call"
+    },
+    {
+      "faixa": "174.725 - 175.160",
+      "tipo": "Resistencia",
+      "ativos": "3 ativos",
+      "detalhe": "SPY virada, IWM call, BOVA11 call"
+    },
+    {
+      "faixa": "168.425 - 168.925",
+      "tipo": "Suporte",
+      "ativos": "5 ativos",
+      "detalhe": "SPY put, IWM put, EWZ put, BOVA11 put, SPX put"
+    }
+  ],
+  "exterior_lista": [
+    {
+      "ticker": "SPX",
+      "preco": "7.323,63",
+      "regime": "Negativo",
+      "detalhe": "Virada 8.299; abaixo = risco de movimento forte"
+    },
+    {
+      "ticker": "SPY",
+      "preco": "730,20",
+      "regime": "Negativo",
+      "detalhe": "Virada 756,95; suporte 730"
+    },
+    {
+      "ticker": "QQQ",
+      "preco": "659,51",
+      "regime": "Negativo",
+      "detalhe": "Virada 693,13; suporte 650"
+    },
+    {
+      "ticker": "IWM",
+      "preco": "270,12",
+      "regime": "Negativo",
+      "detalhe": "Virada 284,56; suporte 270"
+    },
+    {
+      "ticker": "EWZ",
+      "preco": "30,07",
+      "regime": "Negativo",
+      "detalhe": "Virada 34,04; suporte 30; resistencia 32"
+    }
+  ],
+  "agenda": [
+    {
+      "hora": "10:30",
+      "evento": "EUA: Pedidos de seguro-desemprego",
+      "impacto": "Alto",
+      "detalhe": "203 mil vs proj. 198 mil"
+    },
+    {
+      "hora": "10:30",
+      "evento": "EUA: Fed Filadelfia (nov)",
+      "impacto": "Alto",
+      "detalhe": "Proj. 20,6; anterior 20,9"
+    },
+    {
+      "hora": "11:25",
+      "evento": "EUA: Jefferson (Fed) discursa",
+      "impacto": "Medio",
+      "detalhe": ""
+    },
+    {
+      "hora": "11:45",
+      "evento": "BR: Leilao do Tesouro",
+      "impacto": "Medio",
+      "detalhe": "LTN e NTN-F"
+    },
+    {
+      "hora": "12:00",
+      "evento": "EUA: Indicadores antecedentes (out)",
+      "impacto": "Medio",
+      "detalhe": ""
+    }
+  ],
+  "noticias": [
+    {
+      "titulo": "Senado aprova pacote fiscal; texto vai a Camara",
+      "tema": "Fiscal - peso alto",
+      "vies": "Alta",
+      "url": "https://www.bomdiamercado.com.br/morning-call/senado-aprova-pacote-fiscal-mercado-pode-ter-alivio/"
+    },
+    {
+      "titulo": "Dolar sobe a R$ 5,92; BC vende US$ 1 bi",
+      "tema": "Cambio - peso alto",
+      "vies": "Baixa",
+      "url": "https://valor.globo.com/impresso/noticia/2026/11/19/dolar-volta-a-subir-e-alcanca-r-586-juro-futuro-tem-alta.ghtml"
+    },
+    {
+      "titulo": "Ata do Fed sinaliza nova alta de juros",
+      "tema": "Juros EUA - peso alto",
+      "vies": "Baixa",
+      "url": "https://br.advfn.com/jornal/2026/11/ata-do-fomc-sinaliza-novos-aumentos-de-juros-nos-eua-e-reforca-preocupacao-com-inflacao"
+    }
+  ],
+  "aviso": "Estimativas, sem garantia. Negativo estica, positivo trava."
+}
